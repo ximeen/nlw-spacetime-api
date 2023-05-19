@@ -67,6 +67,6 @@ export async function authRoutes(app: FastifyInstance) {
       },
     )
 
-    return token
+    return { token }
   })
 }
